@@ -1,4 +1,4 @@
-# HW5 Solution
+# HW6 Solution
 
 BadgerNFT contract deployed to BNB Testnet at:
 
