@@ -1,19 +1,13 @@
-# HW5 Solution
+# HW8 Solution
 
-BadgerCoin token deployed to BNB Testnet at:
+Unit tests for the Badger coin contract.
+The tests should show that
+1. The total supply is initially 1,000,000.
+2. That the number of decimals is 18.
+3. The balanceOf function returns the correct result.
+4. The transfer function works correctly.
+5. Test that an error is produced if a transfer is created with an insufficient balance.
 
 ```
-0xEad3282DBf89696F9dBaBfbab29AA5e8eB16eAB4
-```
-
-Contract verified here:
-[BSCScan](https://testnet.bscscan.com/address/0xEad3282DBf89696F9dBaBfbab29AA5e8eB16eAB4#code)
-
-### Deployment and BSCScan Verification
-
-The following scripts were run to deploy and verify the contract to the BNB testnet:
-
-```shell
-npx hardhat run --network bnbTestnet scripts/deploy.js
-npx hardhat verify --network bnbTestnet 0xEad3282DBf89696F9dBaBfbab29AA5e8eB16eAB4
+npx hardhat test
 ```

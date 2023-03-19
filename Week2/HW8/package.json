@@ -12,7 +12,8 @@
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox": "^2.0.2",
     "@nomiclabs/hardhat-etherscan": "^3.1.7",
-    "hardhat": "^2.13.0"
+    "hardhat": "^2.13.0",
+    "hardhat-gas-reporter": "^1.0.9"
   },
   "dependencies": {
     "@openzeppelin/contracts": "^4.8.2",

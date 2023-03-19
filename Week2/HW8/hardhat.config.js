@@ -1,5 +1,6 @@
 require("@nomicfoundation/hardhat-toolbox");
 require("@nomiclabs/hardhat-etherscan");
+require("hardhat-gas-reporter");
 
 const { config } = require("./config");
 
